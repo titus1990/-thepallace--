@@ -1,0 +1,123 @@
+#logo, h1#logo {
+	border-bottom: 1px solid rgba(0,0,0,0.33);
+	border-radius: 0;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+	box-shadow: none;
+	left: 50%;
+	margin-left: -150px;
+	padding: 0;
+	position: relative;
+	text-align: center;
+	width: 300px;
+}
+
+#widget-area-top-container {
+border-bottom: none;
+	box-shadow: none;
+	
+height: 0px;
+left: 50%;
+	margin-left: -150px;
+position: relative;
+width: 300px;
+}
+
+
+#widget-area-top-container-second {
+position: absolute;
+right: 0;
+top: -110px;
+width: 300px;
+}
+
+nav ul.nav-standard {
+	display: none;
+}
+
+nav {
+	background: none;
+	border-radius: 0;
+	box-shadow: none;
+	left: 50%;
+	margin-left: -150px;
+	position: relative;
+	text-align: center;
+	top: 10px;
+	width: 300px;
+}
+
+nav ul.nav-mobile {
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	position: absolute;
+	top: 0;
+}
+
+nav ul.nav-mobile li {
+	margin: 0;
+	position: relative;
+	width: 300px;
+}
+
+nav ul.nav-mobile li ul {
+	display: none;
+	font-size: 12px;
+}
+
+nav ul.nav-mobile a {
+	background: url(img/bg-nav-mobile.png);
+	padding: 10px 0;
+}
+
+nav ul.nav-mobile>li:last-child>a, nav ul.nav-mobile>li:last-child>ul>li:last-child>a  {
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+
+#nav-button-main {
+	background: url(img/buttons/button-nav.png);
+	display: block;
+	height: 38px;
+	padding: 0;
+	position: absolute;
+	right: 12px;
+	top: 37px;
+	width: 36px;
+}
+
+nav ul.nav-mobile a.nav-button-sub {
+	background: url(img/buttons/button-nav-sub.png);
+	display: block;
+	height: 40px;
+	padding: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 49px;
+}
+
+.nav-plus-small, .nav-minus-small {
+	display: block;
+	font-size: 15px;
+	left: 16px;
+	position: absolute;
+	top: 11px;
+}
+
+.nav-minus-small {
+	top: 10px;
+}
+
+#nav-button-main .nav-arrow {
+	display: block;
+	left: 15px;
+	position: absolute;
+	top: 16px;
+}
+
+.nav-button-sub .nav-arrow {
+	left: 16px;
+	top: 19px;
+}

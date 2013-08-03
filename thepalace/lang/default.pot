@@ -1,0 +1,132 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: The Palace\n"
+"POT-Creation-Date: 2013-03-29 13:47+1200\n"
+"PO-Revision-Date: 2013-03-29 13:48+1200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: comments.php:6
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:38
+msgid " - Cancel reply"
+msgstr ""
+
+#: content-multiple.php:78 content-singular.php:8
+msgid "Edit"
+msgstr ""
+
+#: content-multiple.php:94 functions.php:522 functions.php:524
+msgid "Learn more &raquo;"
+msgstr ""
+
+#: content-multiple.php:139
+#, php-format
+msgid "Page %s of %s"
+msgstr ""
+
+#: content-multiple.php:139
+msgid " - Go to page:"
+msgstr ""
+
+#: content-multiple.php:152
+msgid "Sorry, but nothing matched your search criteria."
+msgstr ""
+
+#: functions.php:796 functions.php:805
+msgid "your selection"
+msgstr ""
+
+#: functions.php:798
+msgid "unavailable"
+msgstr ""
+
+#: functions.php:1145 meta.php:20
+msgid "Author: "
+msgstr ""
+
+#: functions.php:1146 meta.php:12
+msgid "Date: "
+msgstr ""
+
+#: functions.php:1147
+msgid "Time: "
+msgstr ""
+
+#: functions.php:1150 functions.php:1182
+msgid "Edit comment"
+msgstr ""
+
+#: functions.php:1157
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:1179
+msgid "Pingback: "
+msgstr ""
+
+#: header.php:194
+msgid "Tag Archives: "
+msgstr ""
+
+#: header.php:196
+msgid "Daily Archives: "
+msgstr ""
+
+#: header.php:198
+msgid "Monthly Archives: "
+msgstr ""
+
+#: header.php:200
+msgid "Yearly Archives: "
+msgstr ""
+
+#: header.php:204
+msgid "Author Archives: "
+msgstr ""
+
+#: header.php:207
+msgid "Author Archives"
+msgstr ""
+
+#: header.php:210
+msgid "Search Results for: "
+msgstr ""
+
+#: meta.php:31
+msgid "Category: "
+msgstr ""
+
+#: meta.php:33
+msgid "Categories: "
+msgstr ""
+
+#: meta.php:46
+msgid "Tag: "
+msgstr ""
+
+#: meta.php:48
+msgid "Tags: "
+msgstr ""
+
+#: meta.php:58
+msgid "Add a comment"
+msgstr ""
+
+#: meta.php:58
+msgid "1 comment"
+msgstr ""
+
+#: meta.php:58
+#, php-format
+msgid "% comments"
+msgstr ""

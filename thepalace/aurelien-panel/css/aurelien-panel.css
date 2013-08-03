@@ -1,0 +1,363 @@
+/* Copyright AurelienD http://themeforest.net/user/AurelienD?ref=AurelienD */
+
+/* 
+1 - general
+2 - menu & save button
+3 - file upload
+4 - slider
+5 - widget areas
+6 - lists of posts
+*/
+
+/* 1 - general */
+#aurel-panel {
+	margin-left: 25px;
+}
+
+#aurel-panel h2, #aurel-panel h3, #aurel-panel h4, #aurel-panel p {
+	line-height: 20px;
+	margin: 0;
+}
+
+#aurel-panel h2{
+	color: #555;
+	font-size: 24px;
+	margin: 20px 0;
+}
+
+#aurel-panel h3 {
+	border-bottom: 2px solid #dfdfdf;
+	color: #21759b;
+	font-size: 14px;
+	margin: 10px 0 10px;
+	padding-bottom: 9px;
+}
+
+#aurel-panel h3.aurel-panel-sub-section {
+	margin-top: 30px;
+}
+
+#aurel-panel h4{
+	font-size: 12px;
+}
+
+#aurel-panel h4 {
+	font-size: 12px;
+}
+
+#aurel-panel p {
+	margin: 0 0 10px;
+}
+
+#aurel-panel p.aurel-panel-option-desc {
+	margin-bottom: 5px;
+}
+
+#aurel-panel input[type="text"] {
+	color: #555;
+	height: 25px;
+	margin: 0;
+	padding: 5px;
+}
+
+#aurel-panel input[type="button"] {
+	/*padding: 4px 15px;*/
+}
+
+#aurel-panel textarea {
+	height: 100px;
+	width: 100%;
+}
+
+#aurel-panel-wrap {
+	background: #fcfcfc;
+	border: 1px solid #dfdfdf;
+	border-bottom-color: #ccc;
+	height: 495px;
+	overflow: hidden;
+	position: relative;
+	width: 820px;
+}
+
+#aurel-panel-content {
+	height: 475px;
+	left: 140px;
+	overflow: auto;
+	padding: 0 20px 0 25px;
+	position: absolute;
+	top: 10px;
+	width: 620px; 
+}
+
+.aurel-panel-section {
+	padding-bottom: 20px;
+}
+
+.aurel-panel-section-separator {
+	border-bottom: 1px dashed #ccc;
+	height: 4px;
+}
+
+.aurel-panel-big-separator {
+	border-bottom: 2px solid #dfdfdf;
+	height: 8px;
+	margin-right: 20px;
+}
+/* end 1 - general */
+
+/* 2 - menu & save button */
+#aurel-panel-menu {
+	background: #dfdfdf;
+	height: 100%;
+	left: 0;
+	margin-right: 5px;
+	position: absolute;
+	top: 0;
+}
+
+#aurel-panel-menu ul {
+	border-top: 1px solid #dfdfdf;
+	border-bottom: 1px solid #ddd;
+	margin-top: 12px;
+}
+
+#aurel-panel-menu ul li {
+	margin: 0;
+}
+
+#aurel-panel-menu ul li a {
+	background: #ececec;
+	border-bottom: 1px solid #dfdfdf;
+	border-top: 1px solid #f9f9f9;
+	border-right: 1px solid #dfdfdf;
+	display: block;
+	font-weight: bold;
+	height: 10px;
+	padding: 10px 20px 15px;
+	text-decoration: none;
+	width: 100px;
+}
+
+#aurel-panel-menu ul li a:hover {
+	background: #eee;
+	border-top: 1px solid #dfdfdf;
+}
+
+#aurel-panel-menu ul li a.apm-active {
+	background: #fcfcfc;
+	border-right: 1px solid #fcfcfc;
+}
+
+#aurel-panel-menu ul li a.apm-active:hover {
+	background: #fcfcfc;
+	border-top-color: #f9f9f9;
+}
+
+input[type="button"]#aurel-panel-button-save-options {
+	display: block;
+	font-weight: bold;
+	left: 20px;
+	/*padding: 7px 10px;*/
+	position: relative;
+	top: 5px;
+	width: 100px;
+}
+
+#aurel-panel-submit-result {
+	color: #d54e4a;
+	font-weight: bold;
+	margin: 15px 0 0 10px;
+	padding: 0 15px;
+}
+
+#aurel-panel-submit-ajax-loader {
+	background: url(../img/loading.gif);
+	display: none;
+	height: 16px;
+	margin: 15px 0 0 10px;
+	width: 16px;
+}
+/* end 2 - menu & save button*/
+
+/* 3 - file upload */
+.aurel-panel-upload-wrap {
+	position: relative;
+}
+
+.aurel-panel-upload-ajaxer {
+	background: url(../img/loading.gif);
+	display: none;
+	height: 16px;
+	margin-top: 10px;
+	width: 16px;
+}
+
+.aurel-panel-upload-img-wrap {
+	display: block;
+	margin-top: 15px;
+}
+
+.aurel-panel-upload-img {
+	background: url(../img/loading.gif) center center;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.aurel-panel-upload-error {
+	color: #d54e4a;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+.aurel-panel-upload-remove {
+	background: url(../img/cross-circle.png);
+	display: block;
+	float: left;
+	height: 16px;
+	margin: -8px 0 0 -8px;
+	width: 16px;
+}
+/* end 3 - file upload */
+
+/* 4 - slider */
+.aurel-panel-slider {
+	background: #f0f0f0;
+	border: 1px solid #dfdfdf;
+	margin: 15px 0;
+	padding: 15px;
+	position: relative;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.aurel-panel-slide {
+	background: #f9f9f9;
+	border: 1px solid #ddd;
+	cursor:move;
+	margin: 15px 0;
+	position: relative;
+	width: 100%;
+}
+
+.aurel-panel-slider-remove, .aurel-panel-slide-remove, .aurel-panel-widget-area-remove, .aurel-panel-rule-remove {
+	background: url(../img/cross-circle.png);
+	height: 16px;
+	position: absolute;
+	right: 8px;
+	top: 8px;
+	width: 16px;
+}
+
+#aurel-panel .aurel-panel-slide p {
+	padding: 10px;
+	padding-bottom: 0;
+	margin: 0;
+}
+
+.aurel-panel-slide input[type="text"] {
+	margin-bottom: 5px;
+	width: 75%;
+}
+
+#aurel-panel .aurel-panel-slide textarea {
+	height: 50px;
+	margin-bottom: 5px;
+}
+/* end 4 - slider */
+ 
+/* 5 - widget areas */
+.aurel-panel-widget-area, .aurel-panel-widget-area-default {
+	background: #fff;
+	border: 1px solid #dfdfdf;
+	height: 20px;
+	padding: 15px;
+	position: relative;
+}
+/* end 5 - widget areas */
+
+/* 6 - posts rules */
+.aurel-panel-posts-rule {
+	border: 1px solid #dfdfdf;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+#aurel-panel .aurel-panel-posts-rule p {
+	margin: 0;
+}
+
+.aurel-panel-rule-toggle {
+	background: url(../img/triangle-down.png);
+	height: 16px;
+	position: absolute;
+	right: 30px;
+	top: 6px;
+	width: 16px;
+}
+
+.aurel-panel-rule-odd,
+.aurel-panel-rule-odd-cat {
+	background: #f5f5f5;
+	border-bottom: 1px solid #dfdfdf;
+	padding: 10px;
+}
+
+.aurel-panel-rule-even {
+	background: #f9f9f9;
+	border-bottom: 1px solid #dfdfdf;
+	padding: 10px;
+}
+
+#aurel-panel-categories-rules .aurel-panel-posts-rule-category .aurel-panel-rule-odd-cat {
+	cursor:move;
+}
+/* end 6 - posts rules */
+
+/* misc */
+.ap-float-left {
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+#aurel-panel p.aurel-panel-message {
+	background: #ffffe0;
+	border: 1px solid #e6db55;
+	margin-top: 3px;
+	padding: 15px;
+}
+
+#contextual-help-link-wrap {
+	display: none;
+}
+
+input.button.hover {
+	border: 1px solid #666;
+}
+
+.ap-width-20p {
+	width: 20%;
+}
+
+.ap-width-25p {
+	width: 25%;
+}
+
+.ap-width-33p {
+	width: 33%;
+}
+
+.ap-width-50p {
+	width: 50%;
+}
+
+.ap-width-75p {
+	width: 75%;
+}
+/* end misc */
+
+/* Copyright AurelienD http://themeforest.net/user/AurelienD?ref=AurelienD */

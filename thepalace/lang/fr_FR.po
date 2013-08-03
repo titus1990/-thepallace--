@@ -1,0 +1,135 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: The Palace\n"
+"POT-Creation-Date: 2013-03-29 13:47+1200\n"
+"PO-Revision-Date: 2013-03-29 14:18+1200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: comments.php:6
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Cet article est protégé par un mot de passe. Entrer le mot de passe pour "
+"voir les commentaires."
+
+#: comments.php:38
+msgid " - Cancel reply"
+msgstr " - Annuler la réponse"
+
+#: content-multiple.php:78 content-singular.php:8
+msgid "Edit"
+msgstr "Editer"
+
+#: content-multiple.php:94 functions.php:522 functions.php:524
+msgid "Learn more &raquo;"
+msgstr "En savoir plus &raquo;"
+
+#: content-multiple.php:139
+#, php-format
+msgid "Page %s of %s"
+msgstr "Page %s sur %s"
+
+#: content-multiple.php:139
+msgid " - Go to page:"
+msgstr " - Aller à la page :"
+
+#: content-multiple.php:152
+msgid "Sorry, but nothing matched your search criteria."
+msgstr "Désolé, mais rien ne correspond à vos critères de recherche."
+
+#: functions.php:796 functions.php:805
+msgid "your selection"
+msgstr "votre sélection"
+
+#: functions.php:798
+msgid "unavailable"
+msgstr "non disponible"
+
+#: functions.php:1145 meta.php:20
+msgid "Author: "
+msgstr "Auteur : "
+
+#: functions.php:1146 meta.php:12
+msgid "Date: "
+msgstr "Date : "
+
+#: functions.php:1147
+msgid "Time: "
+msgstr "Heure : "
+
+#: functions.php:1150 functions.php:1182
+msgid "Edit comment"
+msgstr "Editer le commentaire"
+
+#: functions.php:1157
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération."
+
+#: functions.php:1179
+msgid "Pingback: "
+msgstr "Pingback : "
+
+#: header.php:194
+msgid "Tag Archives: "
+msgstr "Archives pour le Tag : "
+
+#: header.php:196
+msgid "Daily Archives: "
+msgstr "Archive du jour : "
+
+#: header.php:198
+msgid "Monthly Archives: "
+msgstr "Archive du mois : "
+
+#: header.php:200
+msgid "Yearly Archives: "
+msgstr "Archive de l'année "
+
+#: header.php:204
+msgid "Author Archives: "
+msgstr "Archive de l'auteur : "
+
+#: header.php:207
+msgid "Author Archives"
+msgstr "Archive auteur"
+
+#: header.php:210
+msgid "Search Results for: "
+msgstr "Résultat de la recherche : "
+
+#: meta.php:31
+msgid "Category: "
+msgstr "Catégorie : "
+
+#: meta.php:33
+msgid "Categories: "
+msgstr "Catégories : "
+
+#: meta.php:46
+msgid "Tag: "
+msgstr "Tag : "
+
+#: meta.php:48
+msgid "Tags: "
+msgstr "Tags : "
+
+#: meta.php:58
+msgid "Add a comment"
+msgstr "Ajouter un commentaire"
+
+#: meta.php:58
+msgid "1 comment"
+msgstr "1 commentaire"
+
+#: meta.php:58
+#, php-format
+msgid "% comments"
+msgstr "% commentaires"
